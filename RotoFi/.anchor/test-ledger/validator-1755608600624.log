@@ -1,0 +1,25 @@
+[2025-08-19T13:03:20.625456119Z INFO  solana_test_validator] agave-validator 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
+[2025-08-19T13:03:20.625524069Z INFO  solana_test_validator] Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+            "--ledger",
+            ".anchor/test-ledger",
+            "--mint",
+            "6kBeV6jyaESAM397ZFUBch2RHH5Xkev1q8sX7S3dd1h7",
+            "--bpf-program",
+            "GJ5q57HjkpunV17fqXQ2evLbWeCgnEWxKiqM4syPB4Dp",
+            "/home/abduo/lol/RotoFi/target/deploy/rotofi.so",
+        ],
+    }
+[2025-08-19T13:03:20.625563192Z WARN  solana_perf] CUDA is disabled
+[2025-08-19T13:03:20.625590784Z INFO  solana_perf] AVX detected
+[2025-08-19T13:03:20.625595108Z INFO  solana_perf] AVX2 detected
+[2025-08-19T13:03:20.628065396Z INFO  solana_faucet::faucet] Faucet started. Listening on: 0.0.0.0:9900
+[2025-08-19T13:03:20.628111829Z INFO  solana_faucet::faucet] Faucet account address: CDpsAt83w5Jrz8WNf7y1cY6nS7cndkTxwaVXiDVF36Lg
+[2025-08-19T13:03:20.633141255Z INFO  agave_validator::admin_rpc_service] started admin rpc service!
+[2025-08-19T13:03:20.639614926Z INFO  solana_ledger::blockstore] Maximum open file descriptors: 1000000
+[2025-08-19T13:03:20.639652195Z INFO  solana_ledger::blockstore] Opening blockstore at ".anchor/test-ledger/rocksdb"
+[2025-08-19T13:03:20.641248401Z WARN  solana_ledger::blockstore_db] Unable to detect Rocks columns: Error { message: "IO error: No such file or directory: While opening a file for sequentially reading: .anchor/test-ledger/rocksdb/CURRENT: No such file or directory" }
+[2025-08-19T13:03:24.728911946Z INFO  solana_ledger::blockstore] Opening blockstore done; blockstore open took 5.0s
+[2025-08-19T13:03:24.818008288Z INFO  solana_metrics::metrics] metrics disabled: environment variable not found
+[2025-08-19T13:03:24.818560844Z INFO  solana_metrics::metrics] datapoint: shred_insert_is_full slot=0i total_time_ms=0i last_index=31i num_repaired=0i num_recovered=0i
